@@ -18,7 +18,7 @@ const publication = await useAsyncData('publication', () => queryContent('/publi
       </div>
       <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-20">
         <ContentDoc :slot="publication" class="lg:col-start-1 lg:col-end-9" />
-        <Toc :links="publication.data.value.body.toc.links" :child-depth="true" class="mb-6 lg:mb-0 lg:col-start-9 lg:col-end-13" />
+        <Toc :links="publication.data.value.body.toc.links" :child-depth="true" class="lg:sticky lg:top-4 mb-6 lg:mb-0 lg:col-start-9 lg:col-end-13" />
       </div>
     </UtilitiesPageContainer>
   </div>
