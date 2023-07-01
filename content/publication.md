@@ -26,8 +26,7 @@
 1. Smyth JM, Sliwinski MJ, Zawadzki MJ, Scott SB, Conroy DC, Lanza ST, Marcusson-Clavertz D, <u>Kim J</u>, Stawski RS, Stoney CM, Buxton OM, Sciamanna CN, Green PM, Almeida DM. Everyday stress response targets in the science of behavior change. Behaviour Research and Therapy, 101: 20-29, 2018.
 1. 志村 広子, 中村 亨, <u>金鎭赫</u>, 菊地 裕絵, 吉内 一浩, 山本 義春．勤労者の日常生活下における行動，心理，生理，環境情報の統合連続モニタリングと大規模データベースの利活用．ヒューマンインタフェース学会論文誌，19: 163-174, 2017.
 1. <u>Kim J</u>, Nakamura T, Yamamoto Y. A momentary biomarker for depressive mood. In Silico Pharmacology, 4: 4, 2016.
-1. <u>Kim J</u>, Nakamura T, Kikuchi H, Yoshiuchi K, Sasaki T, Yamamoto Y. Covariation of depressive mood and spontaneous physical activity in major depressive disorder: Towards continuous monitoring of depressive mood. IEEE Journal of Biomedical and Health Informatics, 19: 1347-1355, 2015.
-＊同誌のFeatured Articleに選定
+1. <u>Kim J</u>, Nakamura T, Kikuchi H, Yoshiuchi K, Sasaki T, Yamamoto Y. Covariation of depressive mood and spontaneous physical activity in major depressive disorder: Towards continuous monitoring of depressive mood. IEEE Journal of Biomedical and Health Informatics, 19: 1347-1355, 2015. ＊同誌のFeatured Articleに選定
 1. <u>Kim J</u>, Nakamura T, Kikuchi H, Sasaki T, Yamamoto Y. Co-variation of depressive mood and locomotor dynamics evaluated by ecological momentary assessment in healthy humans. PLoS ONE, 8: e74979, 2013.
 1. <u>Kim J</u>, Kikuchi H, Yamamoto Y. Systematic comparison between ecological momentary assessment and day reconstruction method for fatigue and mood states in healthy adults. British Journal of Health Psychology, 18: 155-167, 2013.
 1. <u>金鎭赫</u>，斎藤良夫．韓国で行われている労働者の疲労感調査について．労働科学，80: 203-212, 2004．
