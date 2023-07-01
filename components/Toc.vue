@@ -10,10 +10,7 @@ defineProps<{
       depth: number
     }[]
   }[],
-  childDepth?: {
-    type: boolean,
-    default: false
-  }
+  childDepth?: boolean
 }>()
 </script>
 <template>
