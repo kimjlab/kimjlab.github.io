@@ -33,7 +33,7 @@ const scrollToTop = () => {
     <main class="flex-1">
       <slot />
     </main>
-    <Icon name="mdi:chevron-up" class="lg:!hidden fixed bottom-4 right-4 text-2xl cursor-pointer rounded bg-teal-300" size="24" @click="scrollToTop" />
+    <Icon name="mdi:chevron-up" class="fixed bottom-4 right-4 text-2xl lg:text-3xl cursor-pointer rounded bg-teal-200 bg-opacity-80" @click="scrollToTop" />
     <footer class="flex flex-col lg:flex-row text-sm items-center px-6 lg:px-12 py-6 bg-teal-800 text-white">
       <span class="mb-2 lg:mb-0">©{{ new Date().getFullYear() }} 金鎭赫研究室</span>
       <div class="lg:ml-auto flex flex-col items-center lg:items-end">

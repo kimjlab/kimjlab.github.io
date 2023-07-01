@@ -142,10 +142,10 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
         <div>
           <p>以下のスケジュール以外にも、学生が自主的にイベントや勉強会を自由に行うことができます。また、ゼミ以外の時間でも適宜、先生と個人ミーティングを行い、研究や生活で困っていることなどを相談します。</p>
         </div>
-        <div class="space-y-4">
-          <div v-for="s in schedule.data.value.body">
+        <div class="space-y-4 lg:flex lg:flex-row lg:gap-12 lg:items-baseline lg:justify-between">
+          <div v-for="s in schedule.data.value.body" class="w-full">
             <h4 class="mb-4 text-lg lg:text-2xl font-bold">{{ s.type }}の予定</h4>
-            <table class="w-full lg:w-1/2 border-y border-y-teal-300 text-center">
+            <table class="w-full border-y border-y-teal-300 text-center">
               <tbody>
                 <tr v-for="i in s.items">
                   <th class="w-1/4">{{ i.time }}</th>
