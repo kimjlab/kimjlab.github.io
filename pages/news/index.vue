@@ -10,7 +10,7 @@ useHead(() => ({ title: 'News' }))
     </UtilitiesPagetitle>
     <UtilitiesPageContainer>
       <div class="flex flex-col gap-4">
-        <ContentQuery path="news" :only="['title', '_path', 'date', 'description']" :sort="{ date: -1 }">
+        <ContentQuery path="news" :only="['title', '_path', 'date', 'description', 'img']" :sort="{ date: -1 }">
           <template #default="{ data }">
             <NewsCard v-for="d in data" :news="d" />
           </template>

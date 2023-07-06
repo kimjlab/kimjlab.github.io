@@ -27,7 +27,7 @@ const research = await useAsyncData('research', () => queryContent('research').f
       <div class="flex flex-col">
         <h2 class="mb-6 text-2xl lg:text-4xl font-bold">News</h2>
         <div class="flex flex-col gap-4">
-          <ContentQuery path="news" :only="['title', '_path', 'date', 'description']" :sort="{ date: -1 }" :limit="3">
+          <ContentQuery path="news" :only="['title', '_path', 'date', 'description', 'img']" :sort="{ date: -1 }" :limit="3">
             <template #default="{ data }">
               <NewsCard v-for="d in data" :news="d" />
             </template>
