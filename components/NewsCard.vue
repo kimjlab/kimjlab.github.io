@@ -7,8 +7,8 @@ defineProps({
 })
 </script>
 <template>
-  <nuxt-link :to="news._path" class="flex flex-col md:flex-row md:h-28 gap-4 rounded hover:bg-slate-300 hover:bg-opacity-50 transition-all ease-in-out duration-150">
-    <img class="w-full md:w-40 h-28 md:h-auto object-cover rounded-t md:rounded-tr-none md:rounded-l" :src="news.img ? `/img/${news.img}.jpg` : '/img/lab.jpg'" alt="Sunset in the mountains">
+  <nuxt-link :to="news._path" class="flex flex-col md:flex-row gap-4 rounded hover:bg-slate-300 hover:bg-opacity-50 transition-all ease-in-out duration-150">
+    <img class="w-full md:w-40 object-cover rounded-t md:rounded-tr-none md:rounded-l" :src="news.img ? `/img/${news.img}.jpg` : '/img/lab.jpg'" alt="Sunset in the mountains">
     <div class="px-4 pb-4 md:p-4 w-full">
       <div class="flex flex-col-reverse">
         <div class="text-lg lg:text-2xl font-bold">{{ news.title }}</div>
