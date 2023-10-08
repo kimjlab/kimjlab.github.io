@@ -37,7 +37,7 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
           <h3 class="mb-6 text-xl lg:text-3xl font-bold">学生</h3>
           <div class="mb-3">
             <p>本研究室は2020年度にスタートした新しい研究室です。個性豊かなメンバーが集まっています。</p>
-            <p>2023年4月時点で、修士2年生が3名、学部4年生が4名、学部3年生が1名（留学中）の計8名が所属しています。</p>
+            <p>2023年10月時点で、修士2年生が3名、修士1年生が1名、学部4年生が4名、学部3年生が7名（1名留学中）の計15名が所属しています。</p>
           </div>
           <div class="space-y-6">
             <div>
