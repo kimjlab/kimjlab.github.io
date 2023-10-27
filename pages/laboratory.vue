@@ -41,21 +41,21 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
           </div>
           <div class="space-y-6">
             <div>
-              <h4 class="mb-6 text-lg lg:text-2xl font-bold">大学院生</h4>
-              <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-4 gap-y-4 lg:gap-y-8">
+              <h4 class="mb-6 text-lg lg:text-2xl font-bold">大学院生（計{{student.data.value[0].body.graduate.length}}名）</h4>
+              <div class="grid grid-cols-1 xl:grid-cols-2 lg:gap-x-4 gap-y-4 lg:gap-y-8">
                 <MemberCard v-for="g in student.data.value[0].body.graduate" :data="g" />
               </div>
             </div>
             <div>
-              <h4 class="mb-6 text-lg lg:text-2xl font-bold">学部生</h4>
-              <div class="grid lg:grid-cols-2 gap-x-4 gap-y-8">
+              <h4 class="mb-6 text-lg lg:text-2xl font-bold">学部生（計{{student.data.value[0].body.bachelor.length}}名）</h4>
+              <div class="grid grid-cols-1 xl:grid-cols-2 lg:gap-x-4 gap-y-4 lg:gap-y-8">
                 <MemberCard v-for="b in student.data.value[0].body.bachelor" :data="b" />
               </div>
             </div>
             <div class="space-y-6">
               <h4 class="text-lg lg:text-2xl font-bold">卒業生</h4>
-              <p>2023年4月時点で、計10名（うち、2人は大学院在籍中）が本研究室から卒業しました。</p>
-              <span class="block text-sm">*: 留学生（9月卒業）</span>
+              <p>2023年4月時点で、計10名（うち、2名は大学院在籍中）が本研究室から卒業しました。</p>
+              <span class="block text-sm">*: 9月卒業</span>
               <div v-for="(s, i) in student.data.value[0].body.graduated">
                 <h5 class="mb-3 text-base lg:text-xl font-bold">{{ s.year }}年度卒業（第{{ i + 1 }}期生）</h5>
                 <table class="w-full border-y border-y-teal-300 text-center">
