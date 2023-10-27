@@ -26,8 +26,8 @@
         "name": "Bal Dipesh",
         "img": "bal",
         "belonging": "修士1年",
-        "theme": "",
-        "message": ""
+        "theme": "うつ病患者に対するモバイルヘルスに基づく身体活動介入",
+        "message": "ギター演奏、新しい場所巡り、新技術の勉強"
       }
     ],
     "bachelor": [
@@ -60,18 +60,18 @@
         "message": "ボディビル、バイク、スポーツ観戦"
       },
       {
-        "name": "岡田享大",
-        "img": "okada",
-        "belonging": "行動情報学科3年",
-        "theme": "未定",
-        "message": "旅行、カフェ巡り、人と話すこと"
-      },
-      {
         "name": "占部来楽",
         "img": "urabe",
         "belonging": "行動情報学科3年",
         "theme": "未定",
         "message": ""
+      },
+      {
+        "name": "岡田享大",
+        "img": "okada",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": "旅行、カフェ巡り、人と話すこと"
       },
       {
         "name": "大礼峻平",
