@@ -21,6 +21,13 @@
         "belonging": "修士2年",
         "theme": "機械学習手法を用いた睡眠介入アプリケーション開発と効果検証",
         "message": "邦ロックを聴くこと"
+      },
+      {
+        "name": "Bal Dipesh",
+        "img": "bal",
+        "belonging": "修士1年",
+        "theme": "",
+        "message": ""
       }
     ],
     "bachelor": [
@@ -58,6 +65,48 @@
         "belonging": "行動情報学科3年",
         "theme": "未定",
         "message": "旅行、カフェ巡り、人と話すこと"
+      },
+      {
+        "name": "占部来楽",
+        "img": "urabe",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": ""
+      },
+      {
+        "name": "大礼峻平",
+        "img": "orei",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": "映画鑑賞、散歩"
+      },
+      {
+        "name": "河田進雅",
+        "img": "kawata",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": ""
+      },
+      {
+        "name": "鈴木埜花",
+        "img": "suzukin",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": "映画鑑賞、料理"
+      },
+      {
+        "name": "鈴木陽人",
+        "img": "suzukih",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": "読書、散歩、音楽きくこと"
+      },
+      {
+        "name": "光松音葉",
+        "img": "mitsumatsu",
+        "belonging": "行動情報学科3年",
+        "theme": "未定",
+        "message": "音楽を聴きながら散歩"
       }
     ],
     "graduated": [
