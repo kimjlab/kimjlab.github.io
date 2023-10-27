@@ -11,7 +11,7 @@ defineProps({
 })
 </script>
 <template>
-  <div v-if="!isGraduated" class="lg:h-28 flex flex-col lg:flex-row gap-4 items-center odd:bg-teal-50 lg:odd:bg-inherit p-4 lg:p-0 rounded lg:rounded-none">
+  <div v-if="!isGraduated" class="xl:h-28 flex flex-col lg:flex-row gap-4 items-center odd:bg-teal-50 xl:odd:bg-inherit p-4 lg:p-0 rounded lg:rounded-none">
     <img :src="`/img/member/${data.img}.jpg`" onerror="this.src='https://placehold.jp/eeeeee/000000/150x150.png?text=Image'" alt="" class="w-24 lg:w-28 h-24 lg:h-full object-cover rounded-full lg:rounded">
     <div class="flex flex-col gap-2 items-center lg:items-start">
       <div class="flex flex-col items-center lg:flex-row gap-2">

@@ -17,7 +17,7 @@ defineProps({
 <template>
   <div class="relative h-40 lg:h-80">
     <div class="bg-teal-100 absolute h-full w-full z-10 bg-opacity-5 top-0 font-bold">
-      <div class="px-6 md:px-12 lg:px-0 lg:w-2/3 py-6 lg:py-12 m-auto h-full flex flex-col justify-center">
+      <div class="px-6 md:px-12 lg:px-0 lg:w-9/12 py-6 lg:py-12 m-auto h-full flex flex-col justify-center">
         <h1 class="text-3xl lg:text-5xl font-bold capitalize">{{ title }}</h1>
         <p class="pt-3 lg:pt-6">
           <slot />
