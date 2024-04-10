@@ -79,7 +79,7 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
               </div>
               <div>
                 <p>就職先として、これまでに情報通信系の企業を中心に様々な分野で卒業生が活躍しています。</p>
-                <p>大学院進学先は、静岡大学大学院が2名となっています。</p>
+                <p>大学院進学先は、静岡大学大学院へ2024年度3名が入学となっています。</p>
               </div>
               <table class="w-full lg:w-1/2 border-y border-y-teal-300 text-center">
                 <thead class="bg-teal-50 border-b border-b-teal-300">
@@ -93,10 +93,10 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
                 </thead>
                 <tbody>
                   <tr>
-                    <th>2021年度</th>
+                    <th>2023年度</th>
                     <td>3名</td>
-                    <td>2名</td>
-                    <td>1名</td>
+                    <td>3名</td>
+                    <td>0名</td>
                     <td>6名</td>
                   </tr>
                   <tr>
@@ -105,6 +105,13 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
                     <td>0名</td>
                     <td>0名</td>
                     <td>4名</td>
+                  </tr>
+                  <tr>
+                    <th>2021年度</th>
+                    <td>3名</td>
+                    <td>2名</td>
+                    <td>1名</td>
+                    <td>6名</td>
                   </tr>
                 </tbody>
               </table>
