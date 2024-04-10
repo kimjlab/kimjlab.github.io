@@ -37,7 +37,6 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
           <h3 class="mb-6 text-xl lg:text-3xl font-bold">学生</h3>
           <div class="mb-3">
             <p>本研究室は2020年度にスタートした新しい研究室です。個性豊かなメンバーが集まっています。</p>
-            <p>2023年10月時点で、修士2年生が3名、修士1年生が1名、学部4年生が4名、学部3年生が7名（1名留学中）の計15名が所属しています。</p>
           </div>
           <div class="space-y-6">
             <div>
@@ -54,7 +53,6 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
             </div>
             <div class="space-y-6">
               <h4 class="text-lg lg:text-2xl font-bold">卒業生</h4>
-              <p>2023年4月時点で、計10名（うち、2名は大学院在籍中）が本研究室から卒業しました。</p>
               <span class="block text-sm">*: 9月卒業</span>
               <div v-for="(s, i) in student.data.value[0].body.graduated">
                 <h5 class="mb-3 text-base lg:text-xl font-bold">{{ s.year }}年度卒業</h5>
@@ -79,7 +77,6 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
               </div>
               <div>
                 <p>就職先として、これまでに情報通信系の企業を中心に様々な分野で卒業生が活躍しています。</p>
-                <p>大学院進学先は、静岡大学大学院へ2024年度3名が入学となっています。</p>
               </div>
               <table class="w-full lg:w-1/2 border-y border-y-teal-300 text-center">
                 <thead class="bg-teal-50 border-b border-b-teal-300">
