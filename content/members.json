@@ -31,7 +31,13 @@
             }
         ],
         "bachelor": [
-
+            {
+                "name": "占部来楽",
+                "img": "urabe",
+                "belonging": "行動情報学科4年",
+                "theme": "未定",
+                "message": ""
+            },
             {
                 "name": "小嶋優未",
                 "img": "kojima",
@@ -80,13 +86,6 @@
                 "belonging": "行動情報学科4年",
                 "theme": "未定",
                 "message": "音楽を聴きながら散歩"
-            },
-            {
-                "name": "占部来楽",
-                "img": "urabe",
-                "belonging": "行動情報学科3年",
-                "theme": "未定",
-                "message": ""
             }
         ],
         "graduated": [
@@ -107,56 +106,6 @@
                         "name": "村田大河",
                         "belonging": "修士2年",
                         "theme": "機械学習手法を用いた睡眠介入アプリケーション開発と効果検証"
-                    }
-                ]
-            },
-            {
-                "year": 2022,
-                "member": [
-                    {
-                        "name": "杉山和輝",
-                        "belonging": "学士",
-                        "theme": "腕時計型ウェアラブル端末を用いた身体活動に対する介入の検討"
-                    },
-                    {
-                        "name": "高橋由梨奈",
-                        "belonging": "学士",
-                        "theme": "前日の睡眠と翌日の睡眠の関係―毎日の睡眠パターンから推定する当日の睡眠―"
-                    },
-                    {
-                        "name": "千葉麻尋",
-                        "belonging": "学士",
-                        "theme": "心拍変動と身体活動を用いた心理的ストレスの推定"
-                    },
-                    {
-                        "name": "中谷菜月",
-                        "belonging": "学士",
-                        "theme": "入浴が睡眠と精神的健康に及ぼす影響"
-                    }
-                ]
-            },
-            {
-                "year": 2021,
-                "member": [
-                    {
-                        "name": "Bappi MD Azmol Hossain*",
-                        "belonging": "修士",
-                        "theme": "Associations of smartphone usages with daily loneliness in university students"
-                    },
-                    {
-                        "name": "河田友峻",
-                        "belonging": "学士",
-                        "theme": "心理的ストレスを予測するための心拍変動の機械学習"
-                    },
-                    {
-                        "name": "小久保潮里",
-                        "belonging": "学士",
-                        "theme": "運動習慣の有無によりストレスの感じ方に差が生じるのか"
-                    },
-                    {
-                        "name": "Kim Taejin*",
-                        "belonging": "学士",
-                        "theme": "市町村自殺データを活用した正則化回帰分析による自殺要因の探索"
                     }
                 ]
             }
