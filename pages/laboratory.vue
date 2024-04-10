@@ -57,7 +57,7 @@ const schedule = await useAsyncData('schedule', () => queryContent('schedule').o
               <p>2023年4月時点で、計10名（うち、2名は大学院在籍中）が本研究室から卒業しました。</p>
               <span class="block text-sm">*: 9月卒業</span>
               <div v-for="(s, i) in student.data.value[0].body.graduated">
-                <h5 class="mb-3 text-base lg:text-xl font-bold">{{ s.year }}年度卒業（第{{ i + 1 }}期生）</h5>
+                <h5 class="mb-3 text-base lg:text-xl font-bold">{{ s.year }}年度卒業</h5>
                 <table class="w-full border-y border-y-teal-300 text-center">
                   <thead class="bg-teal-50 border-b border-b-teal-300">
                     <tr>
