@@ -7,7 +7,9 @@ date: 2024/4/22
 フランスのロレーヌ大学に付属するTelecomnancyという学校から3名の方が研究室を訪問されました。
 
 ・Telecom Nancy学校長（Director）: Prof. Pierre-Etienne Moreau
-・国際交流Director: Prof. Hervé Panetto　 
+
+・国際交流Director: Prof. Hervé Panetto
+
 ・交流コーディネーター : Mme. Angélique Dubuisson 
 
 
