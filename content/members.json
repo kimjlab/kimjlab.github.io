@@ -88,6 +88,20 @@
                 "message": "sumika"
             },
             {
+                "name": "山下葉子",
+                "img": "yamashita",
+                "belonging": "行動情報学科4年",
+                "theme": "未定",
+                "message": ""
+            },
+            {
+                "name": "梶井萌愛",
+                "img": "kajii",
+                "belonging": "行動情報学科3年",
+                "theme": "未定",
+                "message": "漫画、アニメ、運動、おいしいものを食べる"
+            },
+            {
                 "name": "西村充騎",
                 "img": "nishimura",
                 "belonging": "行動情報学科3年",
@@ -95,11 +109,25 @@
                 "message": "音楽を聴くこと、散歩、おいしいものを食べること"
             },
             {
+                "name": "本多航己",
+                "img": "honda",
+                "belonging": "行動情報学科3年",
+                "theme": "未定",
+                "message": "バドミントン、音楽を聴く、ゲーム"
+            },
+            {
                 "name": "八久響",
-                "img": "",
+                "img": "yakyu",
                 "belonging": "行動情報学科3年",
                 "theme": "不明",
                 "message": "不明"
+            },
+            {
+                "name": "山田実幸",
+                "img": "yamada",
+                "belonging": "行動情報学科3年",
+                "theme": "未定",
+                "message": "歌うこと、アイドル鑑賞"
             }
         ],
         "graduated": [
