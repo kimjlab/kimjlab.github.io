@@ -7,7 +7,7 @@ const research = await useAsyncData('research', () => queryContent('research').f
 <template>
   <div>
     <UtilitiesPagetitle title="ようこそ、金鎭赫研究室へ。" image="lab-2">
-      健康学と情報学を融合した健康情報学を研究する研究室です。
+      健康科学と情報学を融合した健康情報学を研究する研究室です。
     </UtilitiesPagetitle>
     <UtilitiesPageContainer>
       <div class="flex flex-col">
