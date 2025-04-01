@@ -4,9 +4,23 @@
             {
                 "name": "Bal Dipesh",
                 "img": "bal",
-                "belonging": "修士1年",
+                "belonging": "修士2年",
                 "theme": "うつ病患者に対するモバイルヘルスに基づく身体活動介入",
                 "message": "ギター演奏、新しい場所巡り、新技術の勉強"
+            },
+            {
+                "name": "小嶋健汰",
+                "img": "oshima",
+                "belonging": "修士2年",
+                "theme": "全⽶健康栄養調査における⾝体活動度と睡眠障害の関連性",
+                "message": "サイクリング、プログラミング"
+            },
+            {
+                "name": "宮田陵司",
+                "img": "miyata",
+                "belonging": "修士2年",
+                "theme": "⽇常⽣活下における睡眠と認知機能の関係",
+                "message": "ボディビル、バイク、スポーツ観戦"
             },
             {
                 "name": "大崎拓",
@@ -16,18 +30,32 @@
                 "message": "PCゲーム、コーヒー、音楽"
             },
             {
-                "name": "小嶋健汰",
-                "img": "oshima",
+                "name": "岡田享大",
+                "img": "okada",
                 "belonging": "修士1年",
-                "theme": "全⽶健康栄養調査における⾝体活動度と睡眠障害の関連性",
-                "message": "サイクリング、プログラミング"
+                "theme": "機械学習を用いたJITAIの介入基準の検討",
+                "message": "旅行、カフェ巡り、ドライブ、ドイツ語学習、人と話すこと"
             },
             {
-                "name": "宮田陵司",
-                "img": "miyata",
+                "name": "河田進雅",
+                "img": "kawata",
                 "belonging": "修士1年",
-                "theme": "⽇常⽣活下における睡眠と認知機能の関係",
-                "message": "ボディビル、バイク、スポーツ観戦"
+                "theme": "身体活動度の個人間・個人内分散の分解と適切な介入タイミングの検討",
+                "message": "サッカー観戦、料理、人助け"
+            },
+            {
+                "name": "鈴木埜花",
+                "img": "suzukin",
+                "belonging": "修士1年",
+                "theme": "放課後等デイサービスで働く職員の心理的健康状態の観察研究",
+                "message": "映画鑑賞、料理"
+            },
+            {
+                "name": "光松音葉",
+                "img": "mitsumatsu",
+                "belonging": "修士1年",
+                "theme": "日常生活における生体データを用いた心理的ストレス予測に向けた機械学習アプローチ",
+                "message": "sumika"
             }
         ],
         "bachelor": [
@@ -39,107 +67,73 @@
                 "message": ""
             },
             {
-                "name": "小嶋優未",
-                "img": "kojima",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": "楽器の演奏、旅行、ゲーム"
-            },
-            {
-                "name": "岡田享大",
-                "img": "okada",
-                "belonging": "行動情報学科4年",
-                "theme": "機械学習を用いたJITAIの介入基準の検討",
-                "message": "旅行、カフェ巡り、ドライブ、ドイツ語学習、人と話すこと"
-            },
-            {
-                "name": "大礼峻平",
-                "img": "orei",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": "映画鑑賞、散歩"
-            },
-            {
-                "name": "河田進雅",
-                "img": "kawata",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": "サッカー観戦、料理、人助け"
-            },
-            {
-                "name": "鈴木埜花",
-                "img": "suzukin",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": "映画鑑賞、料理"
-            },
-            {
-                "name": "鈴木陽人",
-                "img": "suzukih",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": "冒険"
-            },
-            {
-                "name": "光松音葉",
-                "img": "mitsumatsu",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": "sumika"
-            },
-            {
                 "name": "梶井萌愛",
                 "img": "kajii",
-                "belonging": "行動情報学科3年",
+                "belonging": "行動情報学科4年",
                 "theme": "未定",
                 "message": "漫画、アニメ、運動、おいしいものを食べる"
             },
             {
                 "name": "西村充騎",
                 "img": "nishimura",
-                "belonging": "行動情報学科3年",
+                "belonging": "行動情報学科4年",
                 "theme": "気分、心理状態が日常行動に及ぼす影響",
                 "message": "音楽を聴くこと、散歩、おいしいものを食べること"
             },
             {
                 "name": "本多航己",
                 "img": "honda",
-                "belonging": "行動情報学科3年",
+                "belonging": "行動情報学科4年",
                 "theme": "未定",
                 "message": "バドミントン、音楽を聴く、ゲーム"
             },
             {
                 "name": "八久響",
                 "img": "yakyu",
-                "belonging": "行動情報学科3年",
+                "belonging": "行動情報学科4年",
                 "theme": "不明",
                 "message": "不明"
             },
             {
                 "name": "山田実幸",
                 "img": "yamada",
-                "belonging": "行動情報学科3年",
+                "belonging": "行動情報学科4年",
                 "theme": "未定",
                 "message": "歌うこと、アイドル鑑賞"
             }
         ],
         "graduated": [
             {
+                "year": 2025,
+                "member": [
+                    {
+                        "name": "大礼峻平",
+                        "belonging": "学士",
+                        "theme": "就寝前のデジタルコンテンツの利用が睡眠に及ぼす影響"
+                    },
+                    {
+                        "name": "鈴木陽人",
+                        "belonging": "学士",
+                        "theme": "睡眠の客観的・主観的評価が睡眠満足感や学習意欲に与える影響の差異について"
+                    }
+                ]
+            },
+            {
                 "year": 2023,
                 "member": [
                     {
                         "name": "池ケ谷舞",
-                        "belonging": "修士2年",
+                        "belonging": "修士",
                         "theme": "行動文脈に応じた個人最適な気分改善方法の検討"
                     },
                     {
                         "name": "織田直也",
-                        "belonging": "修士2年",
+                        "belonging": "修士",
                         "theme": "コンテキストを考慮したワークアウト推薦"
                     },
                     {
                         "name": "村田大河",
-                        "belonging": "修士2年",
+                        "belonging": "修士",
                         "theme": "機械学習手法を用いた睡眠介入アプリケーション開発と効果検証"
                     }
                 ]
