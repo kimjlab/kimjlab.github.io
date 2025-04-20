@@ -46,11 +46,22 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
+
+      - name: Get latest Node LTS version
+        id: node
+        run: |
+          VERSION=$(curl -s https://nodejs.org/dist/index.json | jq -r '[.[] | select(.lts != false)][0].version')
+          echo "NODE_VERSION=${VERSION#v}" >> $GITHUB_ENV
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: ${{ env.NODE_VERSION }}
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+
+      - name: Update codes
+        run: npx nuxi upgrade
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
