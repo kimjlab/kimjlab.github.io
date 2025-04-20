@@ -59,6 +59,9 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Update codes
         run: npx nuxi upgrade
 
