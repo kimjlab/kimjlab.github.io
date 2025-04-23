@@ -5,9 +5,11 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-icon'
   ],
+
   css: [
     '~/assets/css/style.css'
   ],
+
   app: {
     pageTransition: {
       name: 'page',
@@ -15,4 +17,10 @@ export default defineNuxtConfig({
     },
     baseURL: '/'
   },
+
+  devtools: {
+    enabled: false
+  },
+
+  compatibilityDate: '2025-04-20',
 })
