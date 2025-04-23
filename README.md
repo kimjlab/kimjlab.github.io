@@ -196,6 +196,7 @@ date: YYYY/MM/DD
 
 https://github.com/kimjlab/kimjlab.github.io/settings/pages 
 で Deploy static content to Pagesする
+Static HTMLを選択(.github/workflows/static.ymlが生成される)
 
 
 ```sh
@@ -212,3 +213,4 @@ sudo vim /etc/nginx/sites-available/default
 
 nginx -s reload
 ```
+
