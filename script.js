@@ -75,7 +75,7 @@ function showFooter() {
 //use template tag
 function showPageButton(title) {
     const titleStr = title;
-    return `<a class="text-teal-600 md:text-black hover:font-bold transition-all ease-in-out duration-50" href="/` + titleStr.toLowerCase() + `.html">` + titleStr + `</a>`
+    return `<a class="hover:border-b hover:border-teal-600 hover:text-teal-600 hover:font-bold text-teal-600 md:text-black transition-all ease-in-out duration-50" href="/` + titleStr.toLowerCase() + `.html">` + titleStr + `</a>`
     //return `<a class="hover:border-b hover:border-teal-600 hover:text-teal-600 hover:font-bold transition-all ease-in-out duration-50" href="/` + titleStr.toLowerCase() + `.html">` + titleStr + `</a>`
 }
 
