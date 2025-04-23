@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+    <link rel="stylesheet" href="style.css">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="script.js"></script>
+		<title>静岡大学情報学部行動情報学科金鎭赫研究室</title>
+	</head>
+
+	<body>
+		<div id="header"></div>
+		<script>showHeader();</script>
+
+		<div id="title"></div>
+          <div class="mx-6 md:mx-12 lg:mx-auto lg:w-9/12 py-6 lg:py-12 m-auto space-y-6 lg:space-y-12">
+		          <div id="news" class="flex flex-col gap-4"></div>
+          </div>
+
+  <script>
+      
+    //can't access local files without libraries, so define here...
+
+  let pages = {};
+
+  fetch('pages.json') 
+  .then(response => response.json())
+  .then(pages => {
+
+    const page = new URLSearchParams(window.location.search).get('page');
+
+    if (pages[page]) {
+      fetch(pages[page])
+        .then(res => res.text())
+        .then(markdown => {
+          // Very basic markdown-to-HTML (you can use a library like marked.js)
+          const allContents = markdown
+            .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+            .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+            .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+            .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
+            .replace(/\*(.*)\*/gim, '<em>$1</em>')
+            .replace(/!\[(.*?)\]\((.*?)\)/gim, '<img src="$2" alt="$1" />')
+            .replace(/\n$/gim, '<br />');
+
+
+            const lines = allContents.split(/\r?\n/);
+            let title = '';
+            let dateStr = '';
+            
+            for (const line of lines) {
+              if (line.toLowerCase().startsWith("title:")) {
+                title = line.split("title:")[1].trim();
+              }
+              if (line.toLowerCase().startsWith("date:")) {
+                dateStr = line.split("date:")[1].trim();
+              }
+            }
+
+            const parts = allContents.split('---');
+            let contents = '';
+          
+            if (parts.length > 2) {
+              contents = parts.slice(2).join('---').trim();
+            } else {
+              console.log("Not enough '---' separators found.");
+            }
+              showNewsHeading(title, dateStr, contents);
+
+        });
+    } else {
+      showTitle(
+        "News",
+        "研究室の最新情報をお届けします。",
+        "lab"
+      );
+      createEntireNews(pages); 
+    }
+  })
+  .catch(error => console.error('Error:', error));
+  </script>
+
+		<div id="footer"></div>
+		<script>showFooter();</script>
+		
+	</body>
+</html>

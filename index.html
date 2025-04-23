@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+    <link rel="stylesheet" href="style.css">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="script.js"></script>
+		<title>静岡大学情報学部行動情報学科金鎭赫研究室</title>
+	</head>
+
+	<body>
+		<div id="header"></div>
+		<script>showHeader();</script>
+
+    <main class="flex-1">
+		  <div id="title"></div>
+		  <script>
+		  	showTitle(
+		  		"ようこそ、金鎭赫研究室へ。",	
+		  		"健康学と情報学を融合した健康情報学の研究室です。",	
+		  		"lab-2");
+		  </script>
+
+      <div class="mx-6 md:mx-12 lg:mx-auto lg:w-9/12 py-6 lg:py-12 m-auto space-y-6 lg:space-y-12">
+      <div class="flex flex-col">
+        <h2 class="mb-6 text-2xl lg:text-4xl font-bold">Research</h2>
+        <div class="grid lg:grid-cols-3 gap-4">
+
+					<div id="research1"></div>
+					<script>
+						showResearch(
+							"research1",
+     					"research-1.jpg",
+							"日常生活下の多次元健康情報の取得",
+							"様々な生理的指標や社会環境的要因のデータを考慮することで、健康関連行動や精神疾患の予防について多角的に考察・検証します。");
+					</script>
+
+					<div id="research2"></div>
+					<script>
+						showResearch(
+							"research2",
+     					"research-2.jpg",
+				      "日常の生活習慣行動及び健康リスクのメカニズムの解明と介入",
+      				"最新のデータ解析・モデリングを行い、生活習慣行動や健康リスクのメカニズムを解明するとともに客観的・定量的に行う新たな介入手法を提案し、その有効性の実証を試みる研究を行います。");
+					</script>
+
+					<div id="research3"></div>
+					<script>
+						showResearch(
+							"research3",
+     					"research-3.jpg",
+				      "モバイルヘルスシステムの構築",
+				      "日常生活下での多次元健康情報の計測・介入を統合するモバイルヘルスシステムを構築し、その実質的な運用を検討・実証します。");
+					</script>
+        </div>
+	    </div>
+			<a class="my-5 flex flex-col items-end hover:text-teal-500" href="about.html">詳しく知る→</a>
+
+      <div class="flex flex-col">
+        <h2 class="mb-6 text-2xl lg:text-4xl font-bold">News</h2>
+        <div class="flex flex-col gap-4">
+
+					<div id="news"></div>
+					<script>
+            let pages = {};
+
+            fetch('pages.json') 
+            .then(response => response.json())
+            .then(pages => {
+                createEntireNews(pages, 3);
+            })
+            .catch(error => console.error('Error:', error));
+					</script>
+
+        </div>
+			<a class="flex flex-col items-end hover:text-teal-500" href="news.html">もっと見る→</a>
+      </div>
+    </div>
+    </main>
+
+		<div id="footer"></div>
+		<script>showFooter();</script>
+		
+	</body>
+</html>
