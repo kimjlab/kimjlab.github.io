@@ -31,7 +31,7 @@
     const page = new URLSearchParams(window.location.search).get('page');
 
     if (pages[page]) {
-      fetch(pages[page])
+      fetch("news/" + pages[page])
         .then(res => res.text())
         .then(markdown => {
           // Very basic markdown-to-HTML (you can use a library like marked.js)
