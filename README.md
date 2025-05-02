@@ -10,16 +10,14 @@
 ## 内容追加・修正
 
 ### ディレクトリ構成
-(未着手)
 
 ```bash
-content
-├── img
-│   └── member
-├── news
-│   └── TITLE.md
-├── members.json
-└── pages.json
+img
+└── member
+news
+└── TITLE.md
+members.json
+pages.json
 ```
 
 #### imgディレクトリ
