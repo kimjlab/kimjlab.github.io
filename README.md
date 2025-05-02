@@ -89,8 +89,10 @@ date: YYYY/MM/DD
   }
 ```
 
-
-## 雑記（後で修正。ここから下は、今は気にしなくて大丈夫です。）
+<details>
+<summary>
+雑記（後で修正。ここから下は、今は気にしなくて大丈夫です。）
+</summary>
 
 https://github.com/kimjlab/kimjlab.github.io/settings/pages 
 で Deploy static content to Pagesする
@@ -213,3 +215,4 @@ npm run dev
 コンテンツは`content`ディレクトリ以下に配置してください。
 
 
+</details>
