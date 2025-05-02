@@ -20,13 +20,13 @@ members.json
 pages.json
 ```
 
-#### 画像の追加・変更・削除
+### 画像の追加・変更・削除
 
 画像を配置してください。拡張子は`.jpg`に統一してください。
 
 メンバー画像については、`img/member`ディレクトリ以下に配置してください。
 
-##### ニュース記事の追加・修正
+### ニュース記事の追加・修正
 
 `news`ディレクトリに、Markdown形式で配置してください。
 ファイル名は、記事タイトルを端的に表す英語表現にしてください。
@@ -47,7 +47,7 @@ date: YYYY/MM/DD
 
 詳細は、すでに配置済みのものを参考にしてください。
 
-##### 学生情報の追加・修正
+### 学生情報の追加・修正
 
 `members.json`にJSON形式で配置してください。
 先生の情報は、直接`laboratory.html`に記述しています。
@@ -140,7 +140,7 @@ nginx
 npm install
 ```
 
-#### Development Server
+### Development Server
 (未着手)
 
 開発サーバーを起動するには、以下のコマンドを実行してください。
@@ -151,7 +151,7 @@ npm run dev
 
 通常であれば、`http://localhost:3000`で開発環境が起動します。
 
-#### 開発中
+### 開発中
 
 ローカル環境で開発している場合、`git pull`してリモートリポジトリの変更を取り込んでください。
 
@@ -160,7 +160,7 @@ npm run dev
 
 このサイトは [Tailwind CSS](https://tailwindcss.com/) を使用しています。
 
-##### publications.md
+#### publications.md
 (未着手、教員データベースのwebスクレイピング？)
 
 `publications.md`には、研究業績をMarkdown形式で配置してください。
@@ -169,7 +169,7 @@ npm run dev
 ナンバリングについて、`1.`をつければ自動的にナンバリングされます。
 確認していませんが、番号がバラバラでも自動的にナンバリングされると思います。
 
-##### research.json
+#### research.json
 (未着手)
 
 
@@ -188,7 +188,7 @@ npm run dev
 
 `about.html`の研究紹介については、直接`about.html`に記述しているので、必要に応じてそちらを更新してください。
 
-##### schedule.json
+#### schedule.json
 (未着手)
 
 `schedule.json`には、スケジュールをJSON形式で配置してください。
@@ -207,7 +207,7 @@ npm run dev
 ]
 ```
 
-#### コンテンツ
+### コンテンツ
 (未着手)
 
 コンテンツは`content`ディレクトリ以下に配置してください。
