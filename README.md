@@ -44,7 +44,7 @@ date: YYYY/MM/DD
 
 `title`がMarkdownファイルのHeading 1を表すことになるため、記事の内容を記述する際には`## 見出し`から始めてください。
 
-2. 次に、`pages.json`にニュース記事の名前を追加してください。
+2. 次に、`pages.json`にニュース記事の名前を追加してください。（[今後これなしでも可能にする予定](https://github.com/kimjlab/kimjlab.github.io/issues/5)）
 
 詳細は、すでに配置済みのものを参考にしてください。
 
