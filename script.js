@@ -62,7 +62,7 @@ function showFooter() {
 				<div class="flex flex-col lg:ml-auto lg:items-end items-center">
 		      <p>〒432-8011</p>
 		      <p>静岡大学情報学部</p>
-		      <p>静岡県浜松市中区城北3-5-1</p>
+		      <p>静岡県浜松市中央区城北3-5-1</p>
 					<br>
 		      <p>学生部屋: 情報学部2号館6階J2601号室</p>
 		      <p>教員部屋: 情報学部2号館3階J2311号室</p>
