@@ -14,8 +14,6 @@ date: 2025/05/31
 
 ![EKIDEN1](/img/2025ekiden1.jpg)
 
-![EKIDEN3](/img/2025ekiden3.jpg)
-
 ![EKIDEN2](/img/2025ekiden2.jpg)
 
 
