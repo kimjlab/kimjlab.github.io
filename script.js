@@ -179,16 +179,24 @@ function addRow(df, key, img, dateStr, title, description) {
 }
 
 function createEntireNews(pages, count = Object.keys(pages).length) {
+  let basePath = '';
   let df = [];
   let title = '';
   let description = '';
   let dateStr = '';
   let img = '';
   
+  const url = window.location.toString();
+  if (url.includes('localhost')) {
+    basePath = "news/";
+  } else {
+    const urlWithoutProtocol = url.replace(/^(https?:\/\/)/, '');
+    const subdomain = urlWithoutProtocol.split('.')[0];
+    basePath = "https://raw.githubusercontent.com/" + subdomain + "/" + subdomain + ".github.io/main/news"
+  }
 
   for (const [key, path] of Object.entries(pages)) {
-    console.log(path)
-    fetch("news/" + path)
+    fetch(basePath + path)
     .then(res => res.text())
     .then(markdown => {
       const allContents = markdown
