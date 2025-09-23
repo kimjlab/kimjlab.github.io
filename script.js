@@ -187,7 +187,7 @@ function createEntireNews(pages, count = Object.keys(pages).length) {
   
 
   for (const [key, path] of Object.entries(pages)) {
-    fetch("./news/" + path)
+    fetch("news/" + path)
     .then(res => res.text())
     .then(markdown => {
       const allContents = markdown
