@@ -192,7 +192,7 @@ function createEntireNews(pages, count = Object.keys(pages).length) {
   } else {
     const urlWithoutProtocol = url.replace(/^(https?:\/\/)/, '');
     const subdomain = urlWithoutProtocol.split('.')[0];
-    basePath = "https://raw.githubusercontent.com/" + subdomain + "/" + subdomain + ".github.io/main/news"
+    basePath = "https://raw.githubusercontent.com/" + subdomain + "/" + subdomain + ".github.io/main/news/"
   }
 
   for (const [key, path] of Object.entries(pages)) {
