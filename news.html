@@ -23,17 +23,7 @@
       
     //can't access local files without libraries, so define here...
 
-  let basePath = '';
-  const url = window.location.toString();
-
-  if (url.includes('localhost')) {
-    basePath = "news/";
-  } else {
-    const urlWithoutProtocol = url.replace(/^(https?:\/\/)/, '');
-    const subdomain = urlWithoutProtocol.split('.')[0];
-    basePath = "https://raw.githubusercontent.com/" + subdomain + "/" + subdomain + ".github.io/main/news/"
-  }
-
+  let basePath = getBasePath();
   let pages = {};
 
   fetch('pages.json') 
