@@ -23,6 +23,17 @@
       
     //can't access local files without libraries, so define here...
 
+  let basePath = '';
+  const url = window.location.toString();
+
+  if (url.includes('localhost')) {
+    basePath = "news/";
+  } else {
+    const urlWithoutProtocol = url.replace(/^(https?:\/\/)/, '');
+    const subdomain = urlWithoutProtocol.split('.')[0];
+    basePath = "https://raw.githubusercontent.com/" + subdomain + "/" + subdomain + ".github.io/main/news/"
+  }
+
   let pages = {};
 
   fetch('pages.json') 
@@ -32,7 +43,7 @@
     const page = new URLSearchParams(window.location.search).get('page');
 
     if (pages[page]) {
-      fetch("news/" + pages[page])
+      fetch(basePath + pages[page])
         .then(res => res.text())
         .then(markdown => {
           // Very basic markdown-to-HTML (you can use a library like marked.js)
