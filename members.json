@@ -2,13 +2,6 @@
     "body": {
         "graduate": [
             {
-                "name": "Bal Dipesh",
-                "img": "bal",
-                "belonging": "修士2年",
-                "theme": "うつ病患者に対するモバイルヘルスに基づく身体活動介入",
-                "message": "ギター演奏、新しい場所巡り、新技術の勉強"
-            },
-            {
                 "name": "小嶋健汰",
                 "img": "oshima",
                 "belonging": "修士2年",
@@ -131,6 +124,15 @@
             }
         ],
         "graduated": [
+            {    "year": 2025,
+                 "member": [
+                     {
+                         "name": "Bal Dipesh",
+                         "belonging": "修士",
+                         "theme": "Predicting Daily Physical Activity from Morning Activity Patterns to Optimize Intervation Delivery"
+                     }
+                 ]
+            },
             {
                 "year": 2024,
                 "member": [
