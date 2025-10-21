@@ -2,7 +2,7 @@
     "body": {
         "graduate": [
             {
-                "name": "小嶋健汰",
+                "name": "小嶋健汰　Kenta Oshima",
                 "img": "oshima",
                 "belonging": "修士2年",
                 "theme": "全⽶健康栄養調査における⾝体活動度と睡眠障害の関連性",
@@ -49,49 +49,49 @@
                 "belonging": "修士1年",
                 "theme": "日常生活における生体データを用いた心理的ストレス予測に向けた機械学習アプローチ",
                 "message": "sumika"
-            }
+            },
+            {
+                "name": "Rochona Syeda Sharmin Sultana",
+                "img": "",
+                "belonging": "修士1年",
+                "theme": "",
+                "message": ""
+            
         ],
         "bachelor": [
-            {
-                "name": "占部来楽",
-                "img": "urabe",
-                "belonging": "行動情報学科4年",
-                "theme": "未定",
-                "message": ""
-            },
             {
                 "name": "梶井萌愛",
                 "img": "kajii",
                 "belonging": "行動情報学科4年",
-                "theme": "未定",
+                "theme": "ストレス緩和を目的としたデジタル自己管理型マインドフルネス介入の開発",
                 "message": "漫画、アニメ、運動、おいしいものを食べる"
             },
             {
                 "name": "西村充騎",
                 "img": "nishimura",
                 "belonging": "行動情報学科4年",
-                "theme": "未定",
+                "theme": "環境要因変化の主観的評価が睡眠満足度に与える影響",
                 "message": "B'z"
             },
             {
                 "name": "本多航己",
                 "img": "honda",
                 "belonging": "行動情報学科4年",
-                "theme": "未定",
+                "theme": "食事写真からの栄養素自動推定システムの精度向上",
                 "message": "バドミントン、音楽を聴く、ゲーム"
             },
             {
                 "name": "八久響",
                 "img": "yakyu",
                 "belonging": "行動情報学科4年",
-                "theme": "不明",
+                "theme": "データ可視化と個別介入通知による身体活動促進の効果検証",
                 "message": "不明"
             },
             {
                 "name": "山田実幸",
                 "img": "yamada",
                 "belonging": "行動情報学科4年",
-                "theme": "未定",
+                "theme": "リアルタイム観察による食事タイミングと睡眠の質の関連分析",
                 "message": "歌うこと、アイドル鑑賞"
             },
             {
