@@ -131,7 +131,11 @@ nginx -s reload
 nginx
 ```
 
-- rootディレクトリに移動(デフォルトはmacでは`/usr/local/var/www/`、ubuntuでは`/var/www/html`)
+- rootディレクトリに移動
+  - デフォルトのディレクトリ
+    - mac:`/usr/local/var/www/`
+    - ubuntu:`/var/www/html`
+    - arch: `/usr/share/nginx/html/`
 
 ### Setup
 (未着手)
