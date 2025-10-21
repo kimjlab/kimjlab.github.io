@@ -9,42 +9,42 @@
                 "message": "サイクリング、プログラミング、マルシィ"
             },
             {
-                "name": "宮田陵司",
+                "name": "宮田陵司　Ryouji Miyata",
                 "img": "miyata",
                 "belonging": "修士2年",
                 "theme": "⽇常⽣活下における睡眠と認知機能の関係",
                 "message": "ボディビル、バイク、スポーツ観戦"
             },
             {
-                "name": "大﨑拓",
+                "name": "大﨑拓　Taku Oosaki",
                 "img": "osaki",
                 "belonging": "修士1年",
                 "theme": "客観的データに基づくHighly Sensitive Person傾向の推定",
                 "message": "星野源"
             },
             {
-                "name": "岡田享大",
+                "name": "岡田享大　Takahiro Okada",
                 "img": "okada",
                 "belonging": "修士1年",
                 "theme": "機械学習を用いたJITAIの介入基準の検討",
                 "message": "旅行、カフェ巡り、ドライブ、ドイツ語学習、人と話すこと"
             },
             {
-                "name": "河田進雅",
+                "name": "河田進雅　Shinga Kawata",
                 "img": "kawata",
                 "belonging": "修士1年",
                 "theme": "身体活動度の個人間・個人内分散の分解と適切な介入タイミングの検討",
                 "message": "サッカー観戦、料理、人助け"
             },
             {
-                "name": "鈴木埜花",
+                "name": "鈴木埜花　Nonoka Suzuki",
                 "img": "suzukin",
                 "belonging": "修士1年",
                 "theme": "放課後等デイサービスで働く職員の心理的健康状態の観察研究",
                 "message": "映画鑑賞、料理"
             },
             {
-                "name": "光松音葉",
+                "name": "光松音葉　Otoha Mitsumatsu",
                 "img": "mitsumatsu",
                 "belonging": "修士1年",
                 "theme": "日常生活における生体データを用いた心理的ストレス予測に向けた機械学習アプローチ",
@@ -61,63 +61,63 @@
         ],
         "bachelor": [
             {
-                "name": "梶井萌愛",
+                "name": "梶井萌愛　Moe Kajii",
                 "img": "kajii",
                 "belonging": "行動情報学科4年",
                 "theme": "ストレス緩和を目的としたデジタル自己管理型マインドフルネス介入の開発",
                 "message": "漫画、アニメ、運動、おいしいものを食べる"
             },
             {
-                "name": "西村充騎",
+                "name": "西村充騎　Mitsuki Nishimura",
                 "img": "nishimura",
                 "belonging": "行動情報学科4年",
                 "theme": "環境要因変化の主観的評価が睡眠満足度に与える影響",
                 "message": "B'z"
             },
             {
-                "name": "本多航己",
+                "name": "本多航己　Koki Honda",
                 "img": "honda",
                 "belonging": "行動情報学科4年",
                 "theme": "食事写真からの栄養素自動推定システムの精度向上",
                 "message": "バドミントン、音楽を聴く、ゲーム"
             },
             {
-                "name": "八久響",
+                "name": "八久響　Hibiki Yakyu",
                 "img": "yakyu",
                 "belonging": "行動情報学科4年",
                 "theme": "データ可視化と個別介入通知による身体活動促進の効果検証",
                 "message": "不明"
             },
             {
-                "name": "山田実幸",
+                "name": "山田実幸　Miyuki Yamada",
                 "img": "yamada",
                 "belonging": "行動情報学科4年",
                 "theme": "リアルタイム観察による食事タイミングと睡眠の質の関連分析",
                 "message": "歌うこと、アイドル鑑賞"
             },
             {
-                "name": "奥山晃斗",
+                "name": "奥山晃斗　Akito Okuyama",
                 "img": "okuyama",
                 "belonging": "行動情報学科3年",
                 "theme": "未定",
                 "message": "映画鑑賞、野球観戦、アニメ"
             },
             {
-                "name": "幸地水彩",
+                "name": "幸地水彩　Mirea Kochi",
                 "img": "kouchi",
                 "belonging": "行動情報学科3年",
                 "theme": "未定",
                 "message": "音楽を聴く、ライブに行く"
             },
             {
-                "name": "常川はるか",
+                "name": "常川はるか　Haruka Tsunekawa",
                 "img": "tsunekawa",
                 "belonging": "行動情報学科3年",
                 "theme": "未定",
                 "message": "漫画を読む、音楽を聴く"
             },
             {
-                "name": "舩橋諒丞",
+                "name": "舩橋諒丞　Ryosuke Funahashi",
                 "img": "funahashi",
                 "belonging": "行動情報学科3年",
                 "theme": "未定",
