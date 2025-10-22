@@ -125,13 +125,11 @@ function showImgAndSentence(id, rowOrder, title, explanation, imgName) {
 }
 
 function createProfile(person) {
-  return `<div class="lg:h-28 flex flex-col lg:flex-row gap-4 items-center odd:bg-teal-50 lg:odd:bg-inherit p-4 lg:p-0 rounded">
-					<img src="img/member/${person.img}.jpg" onerror="this.src='https://placehold.jp/eeeeee/000000/150x150.png?text=Image'"  class="w-24 lg:w-28 h-24 lg:h-28 object-cover rounded-full lg:rounded">
+  return `<div class="lg:h-28 flex flex-col lg:flex-row gap-4 items-center odd:bg-teal-50 lg:odd:bg-inherit p-4 lg:p-0 lg:m-4 rounded">
+					<img src="img/member/${person.img}.jpg" onerror="this.src='https://placehold.jp/eeeeee/000000/150x150.png?text=Image'"  class="w-24 lg:w-36 h-24 lg:h-36 object-cover rounded-full lg:rounded">
 			    <div class="flex flex-col gap-2 items-center lg:items-start">
-      			<div class="flex flex-col items-center lg:flex-row gap-2">
-			        <p class="text-xl font-semibold">${person.name}</p>
-      			  <p class="lg:self-end">${person.belonging}</p>
-			      </div>
+			      <p class="text-xl font-semibold">${person.name}</p>
+      			<p>${person.belonging}</p>
       			<p>研究テーマ: <b>${person.theme}</b></p>
 			      <p class="text-sm">趣味: ${person.message}</p>
 			    </div>
