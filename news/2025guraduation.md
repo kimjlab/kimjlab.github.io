@@ -30,4 +30,4 @@ date: 2026/03/17
 - 山田実幸
   - リアルタイム観察による食事タイミングと睡眠の質の関連分析
  
-  - ![2025guraduation](2025guraduation.jpg)
+  - ![2025guraduation](/img/2025guraduation.jpg)
