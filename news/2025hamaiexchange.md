@@ -18,11 +18,11 @@ date: 2025/12/10
 　テーマ：データ可視化と個別介入通知による身体活動促進の効果検証
 
 
- ![2026hamai1](/img/2026hamai1)
+ ![2026hamai1](/img/2026hamai1.jpg)
 
-  ![2026hamai2](/img/2026hamai2)
+  ![2026hamai2](/img/2026hamai2.jpg)
 
-   ![2026hamai3](/img/2026hamai3)
+   ![2026hamai3](/img/2026hamai3.jpg)
 
  
 
