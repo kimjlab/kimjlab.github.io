@@ -11,6 +11,7 @@ date: 2026/05/23
 みなさんお疲れさまでした。
 
 
+![EKIDEN2](/img/2026ekiden2.jpg)
 
 ![EKIDEN1](/img/2026ekiden1.jpg)
 
