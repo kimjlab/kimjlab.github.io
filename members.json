@@ -54,13 +54,6 @@
         ],
         "bachelor": [
             {
-                "name": "奥山晃斗　Akito Okuyama",
-                "img": "okuyama",
-                "belonging": "行動情報学科3年",
-                "theme": "未定",
-                "message": "映画鑑賞、野球観戦、アニメ"
-            },
-            {
                 "name": "幸地水彩　Mirea Kochi",
                 "img": "kouchi",
                 "belonging": "行動情報学科4年",
@@ -80,6 +73,13 @@
                 "belonging": "行動情報学科4年",
                 "theme": "未定",
                 "message": "子どもと遊ぶ, 旅行, プログラミング"
+            },
+            {
+                "name": "奥山晃斗　Akito Okuyama",
+                "img": "okuyama",
+                "belonging": "行動情報学科3年",
+                "theme": "未定",
+                "message": "映画鑑賞、野球観戦、アニメ"
             }
         ],
         "graduated": [
